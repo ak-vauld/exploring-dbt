@@ -6,7 +6,7 @@ Learning the fatures and capabilities of dbt for building robust data transforma
 
 - Development tools in use
     - [Python](https://www.python.org/) - Runtime
-    - [Poetry](https://python-poetry.org/) - Dependency manager
+    - [Python's built-in venv](https://docs.python.org/3/library/venv.html) / [Conda](https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html) - Dependency/Package manager
     - [Visual Studio Code](https://code.visualstudio.com/) - Code editor
 
 - Install poetry
