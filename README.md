@@ -26,27 +26,33 @@ Learning the fatures and capabilities of dbt for building robust data transforma
     - Using Python's built-in venv:
         - Create a virtual environment using `venv` module
 
-        ```shell
-        python3 -m venv <CLONED_REPO_PATH>
-        ```
+            ```shell
+            python3 -m venv <CLONED_REPO_PATH>
+            ```
 
         - Change curent directory to the local reporsitory
 
-        ```shell
-        cd <CLONED_REPO_PATH>
-        ```
+            ```shell
+            cd <CLONED_REPO_PATH>
+            ```
 
         - Activate the virtual environment
 
-        ```shell
-        source bin/activate
-        ```
+            ```shell
+            source bin/activate
+            ```
 
         - Install required dependencies/packages
 
-        ```shell
-        pip install -r requirements.txt
-        ```
+            ```shell
+            pip install -r requirements.txt
+            ```
+
+        - Install dbt packages
+
+            ```shell
+            dbt deps
+            ```
 
     - Using poetry:
 
