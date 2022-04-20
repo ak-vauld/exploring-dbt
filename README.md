@@ -136,6 +136,28 @@ Try running the following commands:
 - For customizing the landing page, a special file, overview.md is used.
 - You can add your assets to a project folder.
 
+#### Generating documentation
+
+- Generate documentation using command:
+
+    ```shell
+    dbt docs generate
+    ```
+
+- View generated documentation using command:
+
+    ``` shell
+    dbt docs serve
+    ```
+
+- Sample documentation
+
+- ![sample documentation!](https://github.com/ak-vauld/exploring-dbt/blob/main/assets/dbt%20sample%20docs.png)
+
+### dbt Commands Cheat Sheet
+
+- [DBT Cheat Sheet](https://github.com/ak-vauld/exploring-dbt/blob/a62232e2329d518483b85d24215d3388ed1afcd9/CHEATSHEET.md)
+
 ### Resources
 
 - Learn more about dbt [in the docs](https://docs.getdbt.com/docs/introduction)
@@ -143,3 +165,11 @@ Try running the following commands:
 - Join the [dbt community](http://community.getbdt.com/) to learn from other analytics engineers
 - Find [dbt events](https://events.getdbt.com) near you
 - Check out [the blog](https://blog.getdbt.com/) for the latest news on dbt's development and best practices
+
+### Useful dbt Packages
+
+1. [hub.getdbt.com](https://hub.getdbt.com/)
+2. [snowflake_spend](https://hub.getdbt.com/gitlabhq/snowflake_spend/latest/)
+3. [dbt_expectations](https://hub.getdbt.com/calogica/dbt_expectations/latest/)
+4. [audit_helper](https://hub.getdbt.com/dbt-labs/audit_helper/latest/)
+5. [re_data](https://hub.getdbt.com/re-data/re_data/latest/)
