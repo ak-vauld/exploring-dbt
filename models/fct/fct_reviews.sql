@@ -9,7 +9,7 @@
 WITH
 
 raw_reviews AS (
-    select * FROM {{ref('raw_reviews')}}
+    select * FROM {{ ref('raw_reviews') }}
 )
 
 SELECT
