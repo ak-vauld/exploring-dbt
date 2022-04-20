@@ -138,6 +138,14 @@ Try running the following commands:
 
 #### Generating documentation
 
+- Important files to look at
+    - [sources.yml](https://github.com/ak-vauld/exploring-dbt/blob/a62232e2329d518483b85d24215d3388ed1afcd9/models/sources.yml)
+    - [sources.md](https://github.com/ak-vauld/exploring-dbt/blob/a62232e2329d518483b85d24215d3388ed1afcd9/models/sources.md)
+    - [schema.yml](https://github.com/ak-vauld/exploring-dbt/blob/a62232e2329d518483b85d24215d3388ed1afcd9/models/schema.yml)
+    - [schema.md](https://github.com/ak-vauld/exploring-dbt/blob/a62232e2329d518483b85d24215d3388ed1afcd9/models/schema.md)
+    - [overview.md](https://github.com/ak-vauld/exploring-dbt/blob/a62232e2329d518483b85d24215d3388ed1afcd9/models/overview.md)
+    - [dashboards.yml](https://github.com/ak-vauld/exploring-dbt/blob/a62232e2329d518483b85d24215d3388ed1afcd9/models/dashboards.yml)
+
 - Generate documentation using command:
 
     ```shell
