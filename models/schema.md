@@ -1,0 +1,17 @@
+# Schema and model definitions
+
+{% docs dim_listings_cleansed__min_nights %}
+
+Minimum number of nights required to rent this property.
+
+Keep in mind that old listings might have `minimum_nights` set to 0 in the source tables.
+Our cleansing algorithm updates this to `1`.
+
+{% enddocs %}
+
+{% docs dim_listings_cleansed__host_id %}
+
+The id of the host.
+This is the primary key.
+
+{% enddocs %}

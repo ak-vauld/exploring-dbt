@@ -1,0 +1,21 @@
+version: 2
+
+sources:
+    - name: airbnb
+      schema: raw
+      description: '{{ doc("desc_db_airbnb") }}'
+      tables:
+          - name: listings
+            identifier: raw_listings
+            description: '{{ doc("desc_table_raw_listings") }}'
+
+          - name: hosts
+            identifier: raw_hosts
+
+          - name: reviews
+            identifier: raw_reviews
+            description: '{{ doc("desc_table_raw_reviews")}}'
+            loaded_at_field: date
+            freshness:
+                warn_after: { count: 12, period: hour }
+                error_after: { count: 24, period: hour }
