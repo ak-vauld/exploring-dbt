@@ -9,12 +9,6 @@ Learning the fatures and capabilities of dbt for building robust data transforma
     - [Python's built-in venv](https://docs.python.org/3/library/venv.html) / [Conda](https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html) - Dependency/Package manager
     - [Visual Studio Code](https://code.visualstudio.com/) - Code editor
 
-- Install poetry
-
-    ```shell
-    curl -sSL https://raw.githubusercontent.com/python-poetry/poetry/master/get-poetry.py | python -
-    ```
-
 - Clone reporsitory
 
     ``` shell
@@ -53,56 +47,6 @@ Learning the fatures and capabilities of dbt for building robust data transforma
             ```shell
             dbt deps
             ```
-
-    - Using poetry:
-
-        - Configure poetry to create `virtual environment` in the current directory. You just need to type in your shell:
-
-            ```shell
-            poetry config virtualenvs.in-project true
-            ```
-
-            - The `virtual environment` will be created inside the project path and `VS Code` will recognize.
-
-        - Create virtual environment using command
-
-            ``` shell
-            poetry init --no-interaction
-            ```
-
-        - If you already have created your project, you need to re-create the virtualenv to make it appear in the correct place:
-
-            ```shell
-            poetry env list  # shows the name of the current environment
-            poetry env remove <current_environment>
-            poetry install  # will create a new environment using your updated configuration
-            ```
-
-        - Install required dependencies/libraries using command
-
-            ```shell
-            poetry install
-            ```
-
-- Linting
-
-- Formatting
-
-- Static Type Checking
-
-- Automating Commits Using Pre Commit Hooks
-
-    - Install `pre-commit` globally using the command:
-
-        ```shell
-        pip install --user --upgrade pre-commit
-        ```
-
-    - Install git hooks in your local repository using the command:
-
-        ```shell
-        pre-commit install
-        ```
 
 ### Using the starter dbt project
 
